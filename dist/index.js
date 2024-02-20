@@ -41,7 +41,7 @@ var userSchema = new import_mongoose.default.Schema({
   email: String,
   password: String
 });
-var UserTestModel = import_mongoose.default.model("User", userSchema);
+var UserTestModel = import_mongoose.default.model("UserTest", userSchema);
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
   UserTestModel

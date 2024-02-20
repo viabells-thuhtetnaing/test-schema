@@ -5,7 +5,7 @@ var userSchema = new mongoose.Schema({
   email: String,
   password: String
 });
-var UserTestModel = mongoose.model("User", userSchema);
+var UserTestModel = mongoose.model("UserTest", userSchema);
 export {
   UserTestModel
 };
